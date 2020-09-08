@@ -21,4 +21,4 @@ highrange = int(input("Enter a upper limit: "))
 lowrange = int(input("Enter a lower limit: "))
 for foreachnumber in range(highrange, lowrange+1):
     print (i,"*",betanumber,"=",i*betanumber)
-    print("==========--***===***===***===***===***===***===***===***===***===***")
+    
