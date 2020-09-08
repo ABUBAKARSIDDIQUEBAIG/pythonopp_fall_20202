@@ -19,5 +19,4 @@ for x in range(lowerrang,higherrang):
         print("The number is odd: ", x)
 #The given number is even and odd numb
 print("==========--***===***===***===***==***===***===***===***===***===***")
-print("==========--***===***===***===***===***===***===***===***===***===***")
 print("==========--***===***===***===*Task2 question3*===***===***===***===***===***===***")

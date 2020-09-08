@@ -17,3 +17,13 @@ print(list1)
 
 print(len(list1))
 print(len(list2))
+list1.pop(4)
+print(list1)
+list1.remove(12)
+print(list1)
+list1.index(34)
+print(list1.index(34))
+print(list1.count(54))
+print(list1 [1])
+list1 [5]=121
+print(list1)
