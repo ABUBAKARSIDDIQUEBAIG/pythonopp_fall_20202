@@ -107,5 +107,5 @@ unilist = [uni1,uni2,uni3,uni4,uni5]
 tchlist =  [tch1,tch2,tch3,tch4,tch5 ]
 for eachuniversity in unilist:
     eachuniversity.information()
-foreachteacher in tchlist:
+for eachteacher in tchlist:
     eachteacher.information()
