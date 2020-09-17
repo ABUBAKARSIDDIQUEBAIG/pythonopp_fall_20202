@@ -104,5 +104,8 @@ tch5.tchName ="zohab ahmad"
 tch5.tchSubject="islami Education"
 tch5.tchSal=50000
 unilist = [uni1,uni2,uni3,uni4,uni5]
+tchlist =  [tch1,tch2,tch3,tch4,tch5 ]
 for eachuniversity in unilist:
     eachuniversity.information()
+foreachteacher in tchlist:
+    eachteacher.information()
