@@ -1,0 +1,56 @@
+from tkinter import *
+
+root = Tk()
+topframe = Frame(root, bg="red", height=50)
+topframe.pack(side = TOP, fill=X, padx = 0, pady = 0)
+mangoframe=Frame(root, bg="Green", height=50)
+mangoframe.pack(side =BOTTOM, fill=X,padx=0,pady=0)
+rightframe=Frame(root, bg="Green", height=30)
+rightframe.pack(side =RIGHT, fill=X,padx=0,pady=0)
+bottomframe = Frame(root, bg="blue")
+bottomframe.pack(side = TOP, fill=Y, padx = 0, pady = 0)
+
+frame_left = Frame(root, bg = 'Pink', width = 400)
+frame_right = Frame(root, bg = 'Brown')
+frame_extreme_right = Frame(root, bg = 'Black')
+frame_top = Frame(frame_right, bg = 'White', height=50)
+frame_upper = Frame(frame_right, bg='Red')
+frame_lower = Frame(frame_right, bg='Green')
+frame_bottom = Frame(frame_right, bg = 'Yellow', height=50)
+
+lbl_1 = Label(frame_upper, text="First name")
+etext_1 = Entry(topframe)
+lbl_2 = Label(topframe, text="Last name")
+etext_2 = Entry(topframe)
+lbl_1.pack(side=TOP)
+etext_1.pack(side=BOTTOM)
+lbl_2.pack(side=TOP)
+
+
+
+etext_2.pack(side=BOTTOM)
+lbl_1 = Label(text="First page")
+btn_1 = Button(text="Select", bg = "Black", fg="white")
+btn_2 = Button(text="Cancel")
+btn_3 = Button(text ="log in", bg= "White", fg="Blue", height=2, width=5)
+
+lbl_1.pack(side=TOP)
+btn_1.pack(side=LEFT)
+btn_2.pack(side=RIGHT)
+btn_3.pack(side=TOP)
+
+
+
+
+
+frame_left.pack(side=LEFT, fill=BOTH)
+frame_right.pack(side=LEFT, fill=BOTH, expand=1)
+frame_extreme_right.pack(side=LEFT, fill=BOTH)
+frame_top.pack(side = TOP, fill=X)
+frame_upper.pack(side=TOP, fill=BOTH, expand = 1)
+frame_lower.pack(side=TOP, fill= BOTH, expand = 1)
+frame_bottom.pack(side=BOTTOM, fill=X)
+
+
+
+root.mainloop()
