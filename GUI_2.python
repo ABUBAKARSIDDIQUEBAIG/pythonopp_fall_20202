@@ -1,0 +1,24 @@
+from tkinter import *
+
+root =Tk()
+root.state("zoomed")
+
+#Creating main frame
+fram_tope = Frame(root, bg= "#243239", height= 40 )
+frame_center = Frame(root, bg = "white")
+frame_bottom = Frame(root, bg ="#243239",height=20)
+
+#creating body frame with color
+frame_center_right = Frame(frame_center,  bg="white")
+frame_center_left = Frame(frame_center,  bg="red", width= 100)
+#Packing main the frame
+fram_tope.pack(side=TOP, fill=X)
+frame_center.pack(side=TOP, fill=BOTH, expand=TRUE)
+frame_bottom.pack(side=TOP, fill=X)
+
+#Packing body the frame
+frame_center_left.pack(side=LEFT, fill=BOTH)
+frame_center_right.pack(side=LEFT, fill=BOTH, expand=TRUE)
+
+
+root.mainloop()
